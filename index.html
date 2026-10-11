@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Study Studio · JSSSTU</title>
+<meta name="description" content="Syllabus-aligned Artificial Intelligence study studio for JSSSTU CSE Units 1 and 2.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <a class="brand" href="#" aria-label="AI Study Studio home"><span class="brand-mark">AI<span>✦</span></span><span><strong>Study Studio</strong><small>JSSSTU · CSE</small></span></a>
+  <div class="course-chip"><span class="pulse"></span> 24CS540 <span class="chip-right">CIE MODE</span></div>
+  <nav class="nav">
+    <button class="nav-item active" data-view="dashboard">▦ <span>Dashboard</span></button>
+    <div class="nav-label">LEARN</div>
+    <button class="nav-item" data-view="unit1">◈ <span>Unit 1 · Foundations</span><b>09h</b></button>
+    <button class="nav-item" data-view="unit2">⌘ <span>Unit 2 · Search</span><b>09h</b></button>
+    <div class="nav-label">PRACTICE</div>
+    <button class="nav-item" data-view="pyq">▤ <span>Previous Qs + Answers</span></button>
+    <button class="nav-item" data-view="quiz">✳ <span>Practice Arena</span></button>
+    <button class="nav-item" data-view="revision">↗ <span>Quick Revision</span></button>
+  </nav>
+  <div class="sidebar-bottom"><div class="mini-orb">✦</div><strong>Small steps. Smart learning.</strong><p>Master one concept at a time.</p><span class="version">BUILD 0.1 · FOUNDATION</span></div>
+</aside>
+<main class="main">
+<header class="topbar"><div class="crumb">YOUR LEARNING SPACE <span>/</span> <b id="crumb-current">Dashboard</b></div><div class="top-actions"><span class="status-dot"></span><span>Progress saved on this device</span><button id="theme-toggle" class="icon-btn" title="Toggle theme">◐</button></div></header>
+<section class="hero" id="hero">
+  <div class="hero-copy"><div class="eyebrow"><span>✦</span> ARTIFICIAL INTELLIGENCE · 24CS540</div><h1>Think deeper.<br><em>Search smarter.</em></h1><p>Your visual learning space for AI fundamentals, state-space problems and search algorithms — built around your JSSSTU materials.</p><div class="hero-actions"><button class="primary-btn" data-jump="unit1">Explore Unit 1 <span>↗</span></button><button class="secondary-btn" data-jump="unit2">Jump to Search <span>→</span></button></div></div>
+  <div class="hero-art" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="core">AI<span>✦</span></div><div class="node n1">01<small>STATE</small></div><div class="node n2">02<small>SEARCH</small></div><div class="node n3">03<small>GOAL</small></div><div class="connection c1"></div><div class="connection c2"></div><div class="connection c3"></div></div>
+</section>
+<section class="stats-grid">
+ <article class="stat-card"><span class="stat-icon violet">◈</span><div><small>SYLLABUS UNITS</small><strong>02 <span>in focus</span></strong></div></article>
+ <article class="stat-card"><span class="stat-icon blue">⌁</span><div><small>TOPIC LIBRARY</small><strong id="topic-count">18 <span>mapped topics</span></strong></div></article>
+ <article class="stat-card"><span class="stat-icon green">✓</span><div><small>YOUR PROGRESS</small><strong id="progress-label">0% <span>completed</span></strong></div></article>
+</section>
+<section class="section-heading"><div><div class="eyebrow">PICK UP WHERE YOU LEFT OFF</div><h2>Learning dashboard</h2></div><div class="search-wrap"><span>⌕</span><input id="search" placeholder="Search concepts, algorithms…" aria-label="Search topics"><kbd>/</kbd></div></section>
+<section id="view-content"></section>
+<footer><span>AI STUDY STUDIO</span><span>Built from your syllabus, lecture material & question paper · v0.1</span></footer>
+</main>
+</div>
+<script src="topics.js"></script><script src="pyqs.js"></script><script src="app.js"></script>
+</body></html>
