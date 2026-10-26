@@ -26,3 +26,6 @@ Extract the ZIP and open `ai-study-studio/index.html` in a browser.
 3. Commit and push the changes to `main`.
 4. GitHub Pages should redeploy automatically if it is already configured. If not, open **Settings → Pages → Deploy from a branch → main → /(root)**.
 5. Hard-refresh the live site (Ctrl+F5) if the browser still shows cached JavaScript.
+
+## Detailed lesson update (October 2026)
+Each mapped topic now has a dedicated “Detailed explanation” section with conceptual explanation, how-to-understand notes, worked walkthroughs and exam-answer guidance. Current 24CS540 syllabus scope remains the authority. Some supporting search techniques appear in the supplied lecturer material or older PYQs even though the amended syllabus places some of them elsewhere; those are identified as supporting/legacy content in the lesson text and PYQ scope notes.
