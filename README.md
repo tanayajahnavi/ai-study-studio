@@ -1,30 +1,28 @@
 # AI Study Studio — JSSSTU 24CS540
 
-A static GitHub Pages study site for Unit 1 and Unit 2.
+A static study website for Artificial Intelligence Units 1 and 2. No build step, server, API key or external library is required.
+
+## Source priority used for this update
+1. **Amended 2024 Scheme and Syllabus — 24CS540**: defines the current Unit 1 and Unit 2 examinable topic headings.
+2. **Unit 1(1)(1).pptx and Unit 2 (1)(1).pptx**: primary teaching source for the explanations, terminology, examples and search procedures.
+3. **Artificial_Intelligence.pdf**: scanned JSSSTU 22CS540 internal tests and older 20CS540 papers, used only to build the PYQ/practice section.
+
+The older papers have different course codes and may reflect earlier syllabi. Their questions are clearly source-labelled and should not override the current 24CS540 syllabus. If a question relies on a graph image with unreadable edge costs/heuristics, the answer teaches the tracing procedure rather than inventing a numeric path.
+
+## Study content
+- Unit 1: AI definitions and purpose, programming vs AI, core capabilities, foundations, history/development, subareas and applications, current trends, and Tic-Tac-Toe formulation.
+- Unit 2: problem formulation and characteristics, state-space representation, production systems, water-jug and other state-space examples, exhaustive search, BFS/DFS, informed vs uninformed search, Generate-and-Test, Hill Climbing, Beam Search, Best-First Search, A*, problem reduction and Means-End Analysis.
+- Previous Questions + Answers: source-labelled practice questions, worked explanations, comparison tables and step-by-step solution methods, filterable by unit.
+- Topic completion is stored in browser localStorage; progress is local to the browser/device.
+
+Some topics from the supplied teaching PPTs go beyond the concise current syllabus headings. They remain available as lecturer-material support, but the current syllabus is the authority for exam scope.
 
 ## Run locally
-Open `index.html` in a browser. No build step or API keys required.
+Extract the ZIP and open `ai-study-studio/index.html` in a browser.
 
-## Deploy with GitHub Pages
-1. Create a GitHub repository (for example `ai-study-studio`).
-2. Upload the contents of this folder to the repository root.
-3. Open **Settings → Pages**.
-4. Choose **Deploy from a branch**, select `main` and `/ (root)`, then Save.
-5. Wait for the Pages URL to appear.
-
-## Current build
-- Responsive dashboard and unit navigation
-- Searchable topic map
-- Topic detail views and exam prompts
-- Mark-complete progress saved in browser localStorage
-- Short multiple-choice quiz with feedback
-- Quick revision checklist
-- Dark mode
-- Topic map is grounded in the uploaded 24CS540 syllabus, Unit 1 lecture deck and 20CS540 question paper.
-
-## Content status
-This is the first functional foundation build, not yet the final complete study edition. Expand/verify detailed diagrams, every slide-level topic, worked examples and question-paper answers against the uploaded source material before calling it complete.
-
-
-## Previous-year questions and answers
-The Previous Qs + Answers section includes worked model answers for Unit 1–2-relevant questions identified in the uploaded JSSSTU 20CS540 paper dated 26 March 2024. The paper is from an older course code/syllabus; use it for practice and verify current examinability against 24CS540. The graph-tracing question depends on Figure 2; the answer explains the method without inventing edge costs or a path.
+## Deploy/update on GitHub Pages
+1. Extract the ZIP.
+2. Copy the contents of the `ai-study-studio` folder (not the enclosing folder) into the root of your existing `ai-study-studio` GitHub repository, replacing the old files.
+3. Commit and push the changes to `main`.
+4. GitHub Pages should redeploy automatically if it is already configured. If not, open **Settings → Pages → Deploy from a branch → main → /(root)**.
+5. Hard-refresh the live site (Ctrl+F5) if the browser still shows cached JavaScript.
